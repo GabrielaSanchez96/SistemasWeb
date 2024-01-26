@@ -14,21 +14,21 @@
         <br>
         <p>Mi primera encuesta</p>
         <hr>
-        <label for="Name">Nombre: </label>
-        <input type="text" id="Name" name="Name" placeholder="Ingresa tu nombre">
-        <hr>
-        <label for="Age">Edad: </label>
-        <input type="number" id="Age" name="Age" placeholder="Ingresa tu edad">
-        <hr>
-        <label for="City">Ciudad donde vives: </label>
-        <input type="text" id="City" name="City" placeholder="Ingresa tu ciudad">
-        <hr>
-        <label for="Hobby">Pasatiempo Favorito: </label>
-        <input type="text" id="Hobby" name="Hobby" placeholder="Ingresa tu pasatiempo">
-        <hr>
-        <a href="resultado.php">
-            <button type="button" a href>¡Ingresamos Datos!</button>
-        </a>
+       <form action="resultado.php" method="POST">
+            <label for="Name">Nombre: </label>
+            <input type="text" id="Name" name="Name" placeholder="Ingresa tu nombre">
+            <hr>
+            <label for="Age">Edad: </label>
+            <input type="number" id="Age" name="Age" placeholder="Ingresa tu edad">
+            <hr>
+            <label for="City">Ciudad donde vives: </label>
+            <input type="text" id="City" name="City" placeholder="Ingresa tu ciudad">
+            <hr>
+            <label for="Hobby">Pasatiempo Favorito: </label>
+            <input type="text" id="Hobby" name="Hobby" placeholder="Ingresa tu pasatiempo">
+            <hr>
+            <button type="submit" a href>¡Ingresamos Datos!</button>
+       </form>
     </div>
 </body>
 </html>

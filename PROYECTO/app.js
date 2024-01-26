@@ -1,4 +1,4 @@
-var Alert = CustomAlert();
+var Alert = new CustomAlert();
 
 function CustomAlert(){
     this.render = function(){
